@@ -1,7 +1,7 @@
-const BASE_URL = "https://api.stonebase.in/";
+const BASE_URL = "https://api.stonebase.in/intern";
 
 export const API_ENDPOINTS = {
-  REGISTER: "intern",           // Correct endpoint as per your backend
+  REGISTER: "intern",         
 } as const;
 
 export type ApiEndpoint = keyof typeof API_ENDPOINTS;
@@ -15,7 +15,7 @@ export type ApiRequestArgs = {
 export async function apiRequest({ endpoint, data = {}, token }: ApiRequestArgs) {
   try {
     const url = `${BASE_URL}${API_ENDPOINTS[endpoint]}`;
-    console.log("FullAPI :",url);
+    console.log("Full url:",url);
 
     const res = await fetch(url, {
       method: "POST",

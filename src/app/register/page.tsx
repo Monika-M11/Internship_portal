@@ -312,8 +312,19 @@ export default function StudentRegistrationPage() {
             </div>
             <div className="p-6 overflow-y-auto max-h-[65vh] text-sm text-gray-700">
               <ol className="list-decimal pl-5 space-y-3">
-                <li>The intern must attend all scheduled internship sessions, training programs, workshops, and assigned activities. Regular attendance is mandatory.</li>
-                {/* Add remaining terms here */}
+               <li>The intern must attend all scheduled internship sessions, training programs, workshops, and assigned activities. Regular attendance is mandatory.</li>
+                <li>Completion of the assessment test(s), assignments, and evaluations conducted during the internship is compulsory. Failure to participate may result in disqualification from certification.</li>
+                <li>Interns must maintain punctuality and adhere to the internship schedule provided by the organization.</li>
+                <li>Interns are expected to follow all organizational policies, rules, and professional standards throughout the internship period.</li>
+                <li>Any absence must be communicated in advance to the internship coordinator. Excessive absenteeism may lead to termination of the internship.</li>
+                <li>Interns must complete all assigned tasks, projects, and reports within the specified deadlines.</li>
+                <li>Internship certificates will be issued only to participants who successfully complete the internship requirements, including attendance and assessments.</li>
+                <li>Interns shall maintain the confidentiality of any information, data, documents, or materials shared during the internship.</li>
+                <li>Any form of misconduct, plagiarism, misuse of resources, or violation of organizational policies may result in immediate termination of the internship.</li>
+                <li>Interns are responsible for ensuring that the information provided during registration is accurate and complete.</li>
+                <li>The organization reserves the right to modify the internship schedule, training content, assessment process, or other program requirements when necessary.</li>
+                <li>Interns are expected to maintain respectful and professional behavior toward mentors, staff members, and fellow participants.</li>
+                <li>Use of mobile phones or other devices during training sessions should be limited to internship-related activities unless otherwise permitted.</li>
                 <li>By registering for the internship, the participant agrees to comply with all the above terms and conditions.</li>
               </ol>
             </div>
